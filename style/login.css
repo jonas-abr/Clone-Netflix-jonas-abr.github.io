@@ -1,0 +1,41 @@
+:root{
+    --vermelho:#E50914;
+    --preta:#141414;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%),  url('../img/fundo.jpg');
+    height: 1139px; 
+}
+#container{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+h2{
+    margin-left: 15px;
+    color: var(--vermelho);
+    font-family: 'Arial Black', Times;
+    font-size:40px;
+}
+#ajuste{
+    
+}
+.btn{
+    background-color: rgba(0,0,0,.50);
+    color: white;
+    width: 113px;
+    height: 36px;
+}
+.entrar{
+    background-color: #E50914;
+    height: 34px;
+    width:78px;
+    font-weight: 400;
+    font-size: 1rem;
+}
