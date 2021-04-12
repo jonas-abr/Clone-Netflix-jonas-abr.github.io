@@ -39,3 +39,35 @@ h2{
     font-weight: 400;
     font-size: 1rem;
 }
+#alinhar{
+    margin-top: 10%;
+    margin-left: 30%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+}
+#centro{
+    margin-left:140px;}
+p{
+    color: white;
+    font-size: ;
+}
+#assista{
+    font-size: 35px;
+}
+#email{
+    margin-top: 10px;
+    font-size: 18px;
+}
+input{
+    margin-top: 15px;
+    width: 450px;
+    height:48px;
+}
+button{
+    height:48px;
+    width: 100px;
+    background-color: #E50914;
+    color: white;
+}
