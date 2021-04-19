@@ -51,7 +51,6 @@ h1{
     margin-left:140px;}
 p{
     color: white;
-    font-size: ;
 }
 #assista{
     font-size: 35px;
@@ -71,3 +70,9 @@ button{
     background-color: #E50914;
     color: white;
 }
+@media only screen and (max-width: 494px) {
+    .btn {
+        width: 112.88;
+        height: 27.99;
+    }
+  }
