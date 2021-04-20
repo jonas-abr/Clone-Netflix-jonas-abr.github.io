@@ -53,3 +53,8 @@ input{
     width: 314px;
     color: white;
 }
+@media only screen and (max-width: 740px) {
+    body{
+        background-color: rgba(0,0,0,.75);
+    }
+  }
