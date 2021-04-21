@@ -1,0 +1,31 @@
+:root {
+  --primary-100: rgba(230, 10, 21, 1);
+  --black-100: rgba(0, 0, 0, 1);
+  --black-075: rgba(0, 0, 0, 0.75);
+  --black-020: #333;
+  --white-100: rgba(255,255,255,1);
+
+  --space-0: 0px;
+  --space-1: 2px;
+  --space-2: 4px;
+  --space-3: 8px;
+  --space-4: 16px;
+  --space-5: 32px;
+  --space-6: 48px;
+  --space-7: 64px;
+
+  --border-radius-input: 4px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Arial Black', Times;
+  height: 100vh;
+  background-color: var(--black-100);
+}
+
