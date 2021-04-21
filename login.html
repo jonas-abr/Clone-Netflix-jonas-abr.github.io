@@ -1,26 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style/login.css">
+    <link rel="stylesheet" href="style/reset.css">
     <title>Netflix</title>
 </head>
+
 <body>
-    <div>
-        <h2>JFILMES</h2>
-    </div>
+    <nav>
+        <h1>JFILMES</h1>
+    </nav>
     <main>
-        <h3>Entrar</h3>
-        <div class="container">
-            <input type="text" placeholder="Email ou número de telefone">
-            <input type="text" placeholder="Senha">
-            <button>Entrar</button>
-        </div>
+        <h1>Entrar</h1>
+        <form class="login-form">
+            <input required class="login-form__input" type="email" placeholder="Email ou número de telefone">
+            <input required class="login-form__input" type="password" placeholder="Senha">
+            <button class="login-form__submit" type="submit">Entrar</button>
+        </form>
     </main>
     <footer>
 
     </footer>
 </body>
+
 </html>
